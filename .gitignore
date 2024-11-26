@@ -1,8 +1,8 @@
 target/
-target/allure-results
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+target/allure-results/
 
 ### IntelliJ IDEA ###
 .idea/
@@ -11,8 +11,7 @@ target/allure-results
 .idea/compiler.xml
 .idea/libraries/
 .idea/workspace.xml
-.gitignore/git 
-.allure
+.gitignore/git
 External Libraries/
 *.iws
 *.iml

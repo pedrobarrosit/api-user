@@ -73,9 +73,9 @@
         </dependency>
 
         <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>LATEST</version>
         </dependency>
 
     </dependencies>
@@ -89,12 +89,12 @@
                 <version>3.0.0-M5</version> <!-- Versão mais recente para JUnit 5 -->
                 <configuration>
                     <includes>
-                        <include>src/test/java/api/tests</include> <!-- Certifique-se de que o caminho de seus testes está correto -->
+                        <include>**/tests/*.java</include> <!-- Ajustado para garantir que todos os testes sejam encontrados -->
                     </includes>
                     <properties>
                         <property>
                             <name>listener</name>
-                            <value>io.qameta.allure.junit5.AllureJunit5</value> <!-- Configuração do listener Allure -->
+                            <value>io.qameta.allure.junit5.AllureJupiter</value> <!-- Corrigido para JUnit 5 -->
                         </property>
                     </properties>
                 </configuration>
@@ -104,7 +104,7 @@
             <plugin>
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
-                <version>2.10.0</version>
+                <version>2.10.0</version> <!-- Atualizado para a mesma versão da dependência -->
                 <executions>
                     <execution>
                         <goals>
