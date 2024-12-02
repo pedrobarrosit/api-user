@@ -9,7 +9,7 @@ public class SerachUser extends handler {
 
     @Test
     public void getPage2() throws Exception {
-        handler.listGetPage2();
+        handler.avatrsGetPage2();
     }
 
     @Test
