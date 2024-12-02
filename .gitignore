@@ -12,7 +12,7 @@ target/allure-results/
 .idea/libraries/
 .idea/workspace.xml
 .gitignore/git
-target/allure-results/
+target/
 .allure/allure-2.8.1/
 allure-results/
 .gitignore/
