@@ -13,7 +13,6 @@ target/allure-results/
 .idea/workspace.xml
 .gitignore/git
 target/
-.allure/allure-2.8.1/
 allure-results/
 .gitignore/
 logs/
